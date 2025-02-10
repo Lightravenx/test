@@ -1,3 +1,5 @@
+chcp 65001 > $null
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 # Параметры подключения
 $server = "localhost"           # Замените на ваш сервер (например, "127.0.0.1\SQLEXPRESS")
 $database = "DR_BDE_Krasnogorsk"      # Замените на вашу базу данных
